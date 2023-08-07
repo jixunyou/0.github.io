@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: none; }
+body{-webkit-text-size-adjust:none; font-size:14px; background: #000; color: #fff; line-height: 26px}
+
+a{ text-decoration:none}
+
+
+
+.actGotop{position:fixed;_position:absolute;bottom:60px;right:2%;width:40px;height:40px;display:none; z-index:2}
+.actGotop a,.actGotop a:link{width:40px;height:40px;display:inline-block; text-align:center; background:#005a59;}
+.actGotop a i{ line-height: 40px; color: #fff; font-size: 30px}
+/*-----------------共用------------*/
+.space1{ overflow:hidden; clear:both; height:10px; width:100%}
+.space2{ overflow:hidden; clear:both; height:20px; width:100%}
+.space3{ overflow:hidden; clear:both; height:30px; width:100%}
+.space4{ overflow:hidden; clear:both; height:40px; width:100%}
+.space_kong{ overflow:hidden; clear:both; height:120px; width:100%}
+.space_kong1{ overflow:hidden; clear:both; height:88px; width:100%}
+
+@media only screen and (max-width:1200px) {
+.space_kong1{ overflow:hidden; clear:both; height:66px; width:100%}
+.m_main{  padding: 30px 20px;}
+}
+
+@media only screen and (max-width:1050px) {
+.space_kong{ overflow:hidden; clear:both; height:80px; width:100%}
+.space_kong1{ overflow:hidden; clear:both; height:60px; width:100%}
+
+
+.space2{ overflow:hidden; clear:both; height:10px; width:100%}
+.space3{ overflow:hidden; clear:both; height:10px; width:100%}
+.space4{ overflow:hidden; clear:both; height:20px; width:100%}
+}
+
+.kong_bg{width:100%; padding:80px 0px 80px 0px; overflow:hidden; }
+.hui_bg{ width:100%; padding:40px 0px 80px 0px; overflow:hidden; }
+.bai_bg{ background:#ffffff; width:100%; padding:80px 0px 80px 0px; overflow:hidden; }
+
+@media only screen and (max-width:1400px) {
+.hui_bg{ width:100%; padding:20px 0px 60px 0px; overflow:hidden;}
+.bai_bg{ background:#ffffff; width:100%; padding:60px 0px 60px 0px; overflow:hidden; }
+
+.kong_bg{width:100%; padding:40px 0px 40px 0px; overflow:hidden; }
+}
+
+@media only screen and (max-width:1050px) {
+.hui_bg{width:100%; padding:10px 0px 30px 0px; overflow:hidden;}
+.bai_bg{ background:#ffffff; width:100%; padding:30px 0px 30px 0px; overflow:hidden; }
+.kong_bg{width:100%; padding:30px 0px 30px 0px; overflow:hidden; }
+}
+
+
+.main_box{ height:auto; max-width:1440px; width:94%; margin:0 auto; overflow: hidden}
+
+.copxx{ padding: 20px 0px; margin: 0px;text-align: center}
+
+
+
+.logo_xy{float: left; width: auto; padding: 5px 0px}
+.logo_xy img{height: 58px; width: auto; vertical-align: top}
+
+@media only screen and (max-width:1050px) {
+.logo_xy img{height: 40px; width: auto; vertical-align: top}	
+}
+
+
+
+.xy_p1{margin: 0px; padding: 0px; overflow: hidden; position: relative}
+.xy_p1 dl{margin: 0px; padding: 0px; overflow: hidden; }
+.xy_p1 dl dt{margin: 0px; padding: 0px; overflow: hidden; margin-bottom: 10px; line-height: 190%}
+.xy_p1 dl dt h3{margin: 0px; padding: 0px; overflow: hidden;font-size: 28px;line-height: 170%; color: #ffba00}
+.xy_p1 dl dd{margin: 0px; padding: 0px; overflow: hidden;font-size: 16px; margin-bottom: 10px;line-height: 190%}
+.xy_p1 dl dd h3{margin: 0px; padding: 0px; overflow: hidden;font-size: 25px;}
+.xy_p1 dl{margin: 0px; padding: 0px; overflow: hidden}
+
+
+.p1_tu1{ margin: 0px; padding:0px; float: right; width: 45%; position: absolute; z-index:-1;top:0; right: 0}
+.p1_tu1 img{ width: 100%; height: auto;vertical-align: top}
+
+
+
+.p1_btn{margin: 0px; padding:0px;  overflow: hidden}
+.p1_btn li{margin: 0px; padding:0px;  overflow: hidden; margin-bottom: 15px}
+.p1_btn li dl{margin: 0px; padding:0px;  overflow: hidden; background: #04bab1; line-height: 50px; text-align: center;max-width: 200px; font-weight: 700; font-size: 20px; border-radius:16px;}
+
+.p1_btn li a{ color: #fff}
+
+.p1_btn li dl:hover{background: #f97500;}
+
+
+.p1_jg{margin: 0px; padding:0px;  overflow: hidden; line-height: 190%}
+
+.xy_p1_ys{margin: 0px; padding:0px;  overflow: hidden; margin-top:15px; }
+
+.xy_p1_ys li{margin: 0px; padding:0px;  overflow: hidden; width: 33.333%;float: left}
+.xy_p1_ys li a{ color: #fff}
+.xy_p1_ys li dl{margin: 0px; padding:0px;  overflow: hidden; max-width: 300px; width: 90%}
+.xy_p1_ys li dl dt{margin: 0px; padding:0px;  overflow: hidden;font-weight: 700; font-size:18px; margin-bottom: 5px;}
+.xy_p1_ys li dl dd{margin: 0px; padding:0px;  overflow: hidden;font-size: 14px; color: #999; line-height: 190%}
+.xy_p1_ys li:hover dt{color: #00ccbb}
+
+@media only screen and (max-width:800px) {
+.p1_tu1{display: none}	
+
+.xy_p1_ys li dl{margin: 0px; padding:0px;  overflow: hidden; max-width:100%; width: 98%}
+
+.xy_p1{margin: 0px; padding: 0px; overflow: hidden; position: relative; padding-top: 50px}
+.xy_p1 dl dt h3{margin: 0px; padding: 0px; overflow: hidden;font-size: 20px;line-height: 170%; color: #ffba00}
+.xy_p1 dl dd{margin: 0px; padding: 0px; overflow: hidden;font-size: 14px; margin-bottom:5px;line-height: 180%}
+.xy_p1 dl dd h3{margin: 0px; padding: 0px; overflow: hidden;font-size: 20px;}
+.xy_p1 dl dt{ margin-bottom:5px;}	
+
+.p1_btn{margin: 0px; padding:0px;  overflow: hidden}
+.p1_btn li{margin: 0px; padding:0px;  overflow: hidden; margin-bottom: 15px;width: 50%;float: left}
+.p1_btn li dl{margin: 0px; padding:0px;  overflow: hidden; background: #04bab1; line-height: 50px; text-align: center;max-width: 160px; font-weight: 700; font-size: 18px; border-radius:16px;}
+}
+
+
+
+@media only screen and (max-width:640px) {
+.xy_p1_ys li dl dd{margin: 0px; padding:0px;  overflow: hidden;font-size: 12px; color: #999; line-height: 180%}
+}
+
+
+
+
+.xy_tc{margin: 0px; padding: 0px; overflow: hidden; position: relative}
+.xy_tc dl{margin: 0px; padding: 0px; overflow: hidden; }
+.xy_tc dl dt{margin: 0px; padding: 0px; overflow: hidden; margin-bottom: 10px; font-size: 58px;line-height: 1.3;font-weight: bold}
+.xy_tc dl dd{margin: 0px; padding: 0px; overflow: hidden;font-size: 16px; margin-bottom: 10px;line-height: 190%}
+
+
+.xy_tc_tu{float:right; margin-left: 20px; width: 45%}
+.xy_tc_tu img{ width: 100%; height: auto;vertical-align: top}
+
+
+.xiazai_box{margin: 0px; padding: 0px; overflow: hidden; margin-top: 20px}
+.xiazai_box dl{width: 33.333%;float: left;margin: 0px; padding: 0px; min-height:150px;}
+.xiazai_box dl dt{margin: 0px 2%; padding: 0px; overflow: hidden;  border: #00beb3 3px solid;}
+.xiazai_box dl dd{margin: 0px; padding: 5px 0px; overflow: hidden;font-size: 20px; text-align: center; line-height: 30px}
+.xiazai_box dt img{ width: 100%; height: auto;vertical-align: top;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+
+.title_big{font-size: 36px;letter-spacing:0.5px;font-weight: 300;text-align: center; line-height:180%; color: #00c5be }
+.xiazai_box dl a{ color: #fff}
+.xiazai_box dl:hover dd{ color: #00beb3}
+
+
+.xiazai_box dl:hover dt img{-webkit-transform: scale(1.1);transform: scale(1.1);-moz-transform: scale(1.1);transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+.xiazai_box dl:hover dt{ border: #fff 3px solid;}
+
+@media only screen and (max-width:1200px) {
+.title_big{font-size: 32px;}
+.xy_tc dl dt{font-size: 50px;}
+}
+
+@media only screen and (max-width:768px) {	
+.title_big{font-size: 28px;}
+.main_nr_bg{ height: 160px; }
+.xy_tc dl dt{font-size: 40px;}
+.xiazai_box dl dd{margin: 0px; padding: 0px; overflow: hidden;font-size: 16px;}
+}
+
+@media only screen and (max-width:600px) {	
+.title_big{font-size: 26px; }
+.main_nr_bg{ height: 140px}
+.xy_tc_tu{float:right; margin-left: 20px; width: 45%; display:none}
+.xy_tc dl dt{font-size: 30px; text-align: center}
+}
+
+.weizhang_bg{ padding: 0px; width: auto;position: relative; z-index: 1; margin-top: -60px; background:none;}
+
+.weizinr{padding:6%;margin:0 auto; overflow: hidden;color: #444; background: #fff; }
+.weizinr h1{font-size: 30px; line-height: 180%;  margin-bottom: 10px;color: #222;}
+.weizinr h2{font-size: 30px; line-height: 180%;  margin-bottom: 10px;color: #222;}
+.weizinr p{font-size: 16px; line-height: 180%; margin-bottom: 20px; font-family: Arial, "sans-serif"; }
+.weizinr li{line-height: 180%;}
+@media only screen and (max-width:1200px) {
+.weizinr{ width:100%}
+.weizinr h2{font-size:24px; }
+}
+
+.arrow-up{
+	height:auto;
+	width:40px;
+	position:absolute;
+	left:50%;
+	bottom:2%;
+	margin-left:-20px;
+	z-index:9999999; display:none
+}
+@media only screen and (max-width:800px) {
+.arrow-up{ display: block}	
+}
+
+.up_down {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+	animation: myfirst 1.5s infinite;
+}
+ @keyframes myfirst {
+0% {
+ transform: translate(0px, 0px);
+}
+ 50% {
+ transform: translate(0px, -15px);
+}
+ 100% {
+ transform: translate(0px, 0px);
+}
+}
+
+.up_down1 {
+	margin: 0 auto;
+	animation: myfirst 2s infinite;
+}
+ @keyframes myfirst {
+0% {
+ transform: translate(0px, 0px);
+}
+ 50% {
+ transform: translate(0px, -5px);
+}
+ 100% {
+ transform: translate(0px, 0px);
+}
+}
+
+.up_down2 {
+	margin: 0 auto;
+	animation: myfirst 2s infinite;
+}
+ @keyframes myfirst {
+0% {
+ transform: translate(0px, 0px);
+}
+ 50% {
+ transform: translate(0px, -3px);
+}
+ 100% {
+ transform: translate(0px, 0px);
+}
+}
+
+
+
+.foot_k_d{ position:fixed; bottom:20px; z-index:9999; text-align:center; width:100%; float:left; left:0px}
+
+
+@media only screen and (max-width:800px) {
+
+.foot_k_d{ display:none}
+
+
+}
