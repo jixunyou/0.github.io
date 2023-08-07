@@ -29,13 +29,25 @@
 			gtag('js', new Date());
 			gtag('config', 'G-7HPEX2486Z');
 		</script>
+		<!-- Event snippet for 网页浏览 conversion page In your html page, add the
+			snippet and call gtag_report_conversion when someone clicks on the chosen
+			link or button. -->
 		<script>
-			(function() {
-				var _53code = document.createElement("script");
-				_53code.src = "https://tb.53kf.com/code/code/e470d4c48843aebbac65fe7ddfec13f35/1";
-				var s = document.getElementsByTagName("script")[0];
-				s.parentNode.insertBefore(_53code, s);
-			})();
+		function gtag_report_conversion(url) {
+		var callback = function() 
+		{
+			if (typeof(url) != 'undefined')
+			{
+				window.location = url;
+			}
+		};
+		gtag('event', 'conversion', 
+		{
+			'send_to': 'AW-11288315121/XgLtCMvNnc0YEPGJ2IYq',
+			'event_callback': callback
+		});
+		return false;
+		}
 		</script>
 		<script src="skin/static/js/jquery-1.11.1.min.js">
 		</script>
